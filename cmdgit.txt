@@ -1,0 +1,30 @@
+git init 
+"sirve para iniciar el repositorio inicial"
+
+git config --local user.name"jose luis"
+(esto configura el nombre de usuario localmente) 
+si es el pc de mi casa cambio local a global 
+
+git config --local user.emagil"joseluis984xd@gmail.com"
+(esto configura el email de usuario asociado a la cuenta github)
+
+git add .
+(añade todos los archivos al repositorio) 
+
+git branch -M main 
+(cambia el nombre de la rama de master o main)
+
+
+git commit -m "versión de subida"
+(es la version que ested esta subiendo al repositorio)
+
+git push -u origin main
+(empuja los cambios locales a la nube)
+
+git status 
+(comprueba el estado de la rama)
+
+git remote add origin https://github.com/joseluis-beep/maquetado-web.git
+(añade la direccion de su repositorio se hace o ejecuta una sola vez)
+
+blablbalbal
